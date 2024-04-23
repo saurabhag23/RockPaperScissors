@@ -11,31 +11,35 @@ MongoDB
 Setup Instructions
 Clone the Repository
 To get started, clone this repository to your local machine using the following command:
-git clone <repository-url>
+
+# git clone <repository-url>
 
 Replace <repository-url> with the actual URL of this repository.
 
 Starting the Frontend
 Navigate to the frontend directory and install the required dependencies:
-cd frontend
-npm install
+
+# cd frontend
+# npm install
 
 Once the dependencies are installed, start the development server:
-npm run dev
 
-This command will launch the frontend on http://localhost:3000.
+# npm run dev
+
+
 
 Starting the Backend
 Open a new terminal window, navigate to the backend directory, and install the necessary dependencies:
 
-cd server
-npm install
+# cd server
+# npm install
 
 
 After installing the dependencies, start the backend server:
-npm run start
 
-This will start the Express server, typically listening on http://localhost:5000.
+# npm run start
+
+
 
 Usage
 With both the frontend and backend servers running, you can now use your web browser to play Rock, Paper, Scissors at the address provided by the frontend server.
